@@ -24,10 +24,12 @@
 		"style-loader": "^0.20.2",
 		"tapable": "^1.0.0",
 		"webpack": "latest",
-		"webpack-cli": "latest"
+		"webpack-cli": "latest",
+		"webpack-dev-server": "^3.0.0-alpha6"
 	},
 	"scripts": {
 		"build": "webpack --mode production",
-		"dev": "webpack --mode development --watch"
+		"dev": "webpack --mode development --watch",
+		"server": "webpack-dev-server"
 	}
 }

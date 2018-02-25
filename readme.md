@@ -14,15 +14,17 @@ You need some very basic tooling for a current-generation web development projec
 
 ## How it works
 
-The `build` operation will compile/transpile and place fresh files in the `dist` folder. The `dev` command will run Webpack in development mode while watching your files. Webpack will use **index.js** as the entry point and import/require **index.html** and **styles.scss**.
+The `build` operation will compile/transpile and place fresh files in the `dist` folder. The `dev` command will run Webpack in development mode while watching your files. Webpack will use **index.js** as the entry point and import/require **index.html** and **styles.scss**. You can also use webpack-dev-server to run the site locally with auto-reloading.
 
 ## What does the boilerplate provide?
 
 * [Webpack 4](https://webpack.js.org) which does bundling of JS, but also works as a simple build tool
+* [Webpack Dev Server](https://github.com/webpack/webpack-dev-server) which sets up a local server
 * [PostCSS](https://github.com/postcss/postcss) (with [PreCSS](https://github.com/jonathantneal/precss) and [cssnext](http://cssnext.io)) so you can run super-sweet CSS whether you feel the traditional preprocessor love or you'd rather want futuristic not-yet-seen wizardry
 * [Babel](https://babeljs.io) which allows transpilation of new ES2015+ code to ES5 (this boilerplate is set to output ES6 code)
 
 ## How do I use it?
 
 * `npm run build` or `yarn build` will build your project and put it in the dist folder
-* `npm run dev` or `yarn dev` will use the new development mode in watch mode
+* `npm run dev` or `yarn dev` will use the new development mode with watching
+* `npm run server` or `yarn server` will use Webpack's dev server to run your site, auto-updating and all such things

@@ -16,6 +16,7 @@
 		"file-loader": "^1.1.9",
 		"html-loader": "^0.5.5",
 		"html-webpack-plugin": "webpack-contrib/html-webpack-plugin",
+		"postcss": "^6.0.19",
 		"postcss-cssnext": "^3.1.0",
 		"postcss-loader": "^2.1.0",
 		"precss": "^3.1.1",

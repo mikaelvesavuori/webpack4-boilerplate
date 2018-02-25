@@ -1,6 +1,5 @@
 module.exports = {
 	plugins: {
-		precss: {},
 		"postcss-cssnext": {
 			browsers: [
 				"Chrome >= 60",

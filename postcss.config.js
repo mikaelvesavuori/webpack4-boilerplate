@@ -1,14 +1,16 @@
 module.exports = {
-	plugins: {
-		"postcss-cssnext": {
-			browsers: [
-				"Chrome >= 60",
-				"Safari >= 10.1",
-				"iOS >= 10.3",
-				"Firefox >= 54",
-				"Edge >= 15"
-			],
-			compress: true
-		}
-	}
+  plugins: {
+    "postcss-cssnext": {
+      browsers: [
+        "Chrome >= 77",
+        "Safari >= 12",
+        "iOS >= 11",
+        "Firefox >= 70",
+        "Edge >= 15",
+        "> 5%",
+        "not IE 11"
+      ],
+      compress: true
+    }
+  }
 };

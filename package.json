@@ -1,35 +1,32 @@
 {
-	"name": "webpack4-boilerplate",
-	"version": "0.0.1",
-	"description": "Boilerplate for Webpack 4",
-	"main": "index.js",
-	"author": "Mikael Vesavuori",
-	"license": "MIT",
-	"devDependencies": {
-		"@babel/core": "^7.0.0-beta.40",
-		"@babel/node": "^7.0.0-beta.40",
-		"@babel/preset-env": "^7.0.0-beta.40",
-		"@babel/preset-stage-0": "^7.0.0-beta.40",
-		"babel-loader": "^8.0.0-beta.0",
-		"css-loader": "^0.28.10",
-		"extract-text-webpack-plugin": "^4.0.0-alpha.0",
-		"file-loader": "^1.1.9",
-		"html-loader": "^0.5.5",
-		"html-webpack-plugin": "webpack-contrib/html-webpack-plugin",
-		"postcss": "^6.0.19",
-		"postcss-cssnext": "^3.1.0",
-		"postcss-loader": "^2.1.0",
-		"precss": "^3.1.1",
-		"script-ext-html-webpack-plugin": "^1.8.8",
-		"style-loader": "^0.20.2",
-		"tapable": "^1.0.0",
-		"webpack": "latest",
-		"webpack-cli": "latest",
-		"webpack-dev-server": "^3.1.11"
-	},
-	"scripts": {
-		"build": "webpack --mode production",
-		"dev": "webpack --mode development --watch",
-		"server": "webpack-dev-server"
-	}
+  "name": "webpack4-boilerplate",
+  "version": "0.0.2",
+  "description": "Boilerplate for Webpack 4",
+  "main": "index.js",
+  "author": "Mikael Vesavuori",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.0",
+    "extract-text-webpack-plugin": "^4.0.0-alpha.0",
+    "file-loader": "^5.0.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "3.0.2",
+    "postcss": "^7.0.25",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-loader": "^3.0.0",
+    "precss": "^4.0.0",
+    "script-ext-html-webpack-plugin": "^2.1.4",
+    "style-loader": "^1.1.2",
+    "webpack": "4.41.5",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --open --config webpack.config.js --mode development",
+    "build": "webpack --config webpack.config.js --mode production"
+  }
 }

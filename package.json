@@ -25,7 +25,7 @@
 		"tapable": "^1.0.0",
 		"webpack": "latest",
 		"webpack-cli": "latest",
-		"webpack-dev-server": "^3.0.0-alpha6"
+		"webpack-dev-server": "^3.1.11"
 	},
 	"scripts": {
 		"build": "webpack --mode production",
